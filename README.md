@@ -1,3 +1,8 @@
 # devfest2017
 
-TEST
+## Getting Started (Mac)
+```
+brew install nvm
+nvm use stable
+npm install
+```

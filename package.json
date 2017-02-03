@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/WilliamChiu/devfest2017#readme",
   "dependencies": {
+    "express": "^4.14.1",
     "firebase": "^3.6.8"
   }
 }
