@@ -1,29 +1,17 @@
 {
   "name": "devfest2017",
-  "version": "0.0.1",
-  "description": "Add pitch here",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WilliamChiu/devfest2017.git"
-  },
-  "keywords": [
-    "dating",
-    "firebase",
-    "express",
-    "node"
-  ],
-  "author": "table 6 names here",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/WilliamChiu/devfest2017/issues"
-  },
-  "homepage": "https://github.com/WilliamChiu/devfest2017#readme",
   "dependencies": {
-    "express": "^4.14.1",
-    "firebase": "^3.6.8"
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
   }
 }
